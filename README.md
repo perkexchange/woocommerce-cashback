@@ -21,7 +21,7 @@ This plugin:
 
 ## Perk.Exchange Requirements
 
-1. Campaign manager permissions to be able to create a dedicated campaign
+1. [Campaign manager permissions](https://perkexchange.gitbook.io/docs/master) to be able to create a dedicated campaign
 2. The campaign's **Campaign Secret**
 
 ## Installation
