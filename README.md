@@ -1,4 +1,4 @@
-# Woo Commerce Cashback Integration
+# WooCommerce Cashback Integration
 
 This integration provides [KIN](https://kin.org/) cryptocurrency cashback to Wordpress sites running Woo Commerce.
 
