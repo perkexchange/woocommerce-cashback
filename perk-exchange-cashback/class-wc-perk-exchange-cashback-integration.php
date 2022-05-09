@@ -138,7 +138,7 @@ if (!class_exists('WC_Perk_Exchange_Cashback_Integration')) :
           "title" => __("Enable/Disable", "wc_perkexchange_cashback-integration"),
           "type" => "checkbox",
           "label" => __("Enable Cashback", "wc_perkexchange_cashback-integration"),
-          "default" => "yes",
+          "default" => "no",
         ],
         'campaign_secret' => array(
           'title'             => __('Campaign Secret'),
