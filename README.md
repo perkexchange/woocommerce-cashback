@@ -10,8 +10,8 @@ This plugin:
 
 ## Order Flow
 
-* Customers pay for their order using any payment gateway setup on the shop
-* Once the order is paid the user is provisioned KIN cryptocurrency according to the integration setup
+* Customers pay for their order using any payment gateway and currency setup on the shop
+* Once the order is paid the user is provisioned [KIN](https://kin.org) cryptocurrency according to the integration setup
 * An email is sent to the user's billing email address with a link to pickup their KIN
 
 ## WooCommerce Requirements
