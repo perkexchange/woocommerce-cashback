@@ -16,8 +16,8 @@ if (!class_exists('WC_Perk_Exchange_Cashback_Integration')) :
         public function __construct()
         {
             $this->id                 = 'wc_perkexchange_cashback-integration';
-            $this->method_title       = __('Perk.Exchange Cashback');
-            $this->method_description = __('Give crypto cashbacks.');
+            $this->method_title       = __('Perk.Exchange Crypto Cashback');
+            $this->method_description = __('Give crypto cashbacks to users for completing orders.');
 
             $this->init_form_fields();
             $this->init_settings();
