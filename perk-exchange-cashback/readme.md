@@ -22,22 +22,10 @@ This plugin:
 * Once the order is paid the user is provisioned [KIN](https://kin.org) cryptocurrency according to the integration setup
 * An email is sent to the user's billing email address with a link to pickup their KIN
 
-== WooCommerce Requirements ==
-
-1. WooCommerce is installed
-2. Latest release of the Perk.Exchange cashback plugin ZIP
-
-== Perk.Exchange Requirements ==
+== Requirements ==
 
 1. [Campaign manager permissions](https://perkexchange.gitbook.io/docs/master) to be able to create a dedicated campaign
 2. The campaign's **Campaign Secret**
-
-== Installation ==
-
-1. Go to https://github.com/perkexchange/woocommerce-cashback/releases and download the latest release of the plugin
-2. Navigate to Plugins >> Add New >> Upload plugin
-3. Select the ZIP file from Step 1.
-4. Click **Install Now**
 
 == Configuration ==
 
