@@ -6,7 +6,7 @@
  * Description: Plugin to give crypto cashbacks for WooCommerce orders.
  * Author:  Perk.Exchange
  * Author URI: https://perk.exchange/
- * Version: 1.0
+ * Version: 1.0.0
  */
 if (!class_exists('WC_Perk_Exchange_Cashback_Plugin')) :
     class WC_Perk_Exchange_Cashback_Plugin
