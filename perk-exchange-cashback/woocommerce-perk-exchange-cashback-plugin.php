@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Perk.Exchange Cashback
+ * Plugin Name: Perk.Exchange Crypto Cashback
  * Plugin URI: https://perk.exchange/
  * Description: Plugin to give crypto cashbacks for WooCommerce orders.
  * Author:  Perk.Exchange
