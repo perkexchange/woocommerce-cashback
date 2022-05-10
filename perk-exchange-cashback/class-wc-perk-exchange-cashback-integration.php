@@ -34,26 +34,29 @@ if (!class_exists('WC_Perk_Exchange_Cashback_Integration')) :
 
         function admin_options()
         {
-            if (!$this->wc_perkexchange_cashback_valid_campaign_secret_field()) {
+            if (!$this->wc_perkexchange_cashback_valid_campaign_secret_field()) {?>
+               <div class="notice error is-dismissible">
                 <p><?php _e(
                     "Campaign secret is not valid",
                     "perk-exchange-cashback-integration"
                 ); ?></p>
-        </div>
+               </div>
             <?php }
-            if (!$this->wc_perkexchange_cashback_valid_fixed_amount_field()) {
+            if (!$this->wc_perkexchange_cashback_valid_fixed_amount_field()) { ?>
+            <div class="notice error is-dismissible">
                 <p><?php _e(
                     "Fixed Amount is not valid",
                     "perk-exchange-cashback-integration"
                 ); ?></p>
-        </div>
+            </div>
             <?php }
-            if (!$this->wc_perkexchange_cashback_valid_percent_amount_field()) {
+            if (!$this->wc_perkexchange_cashback_valid_percent_amount_field()) {?>
+            <div class="notice error is-dismissible">
                 <p><?php _e(
                     "Percent Amount is not valid",
                     "perk-exchange-cashback-integration"
                 ); ?></p>
-        </div>
+            </div>
             <?php }
             parent::admin_options();
         }
